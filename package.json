@@ -158,7 +158,7 @@
     "strip-bom": "^2.0.0",
     "time-require": "^0.1.2",
     "unique-temp-dir": "^1.0.0",
-    "update-notifier": "^1.0.0"
+    "update-notifier": "^4.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.10.1",
