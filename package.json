@@ -46,8 +46,9 @@
     "test": "xo && nyc --cache --reporter=lcov --reporter=text tap --no-cov --timeout=150 test/*.js test/reporters/*.js",
     "test-win": "tap --no-cov --reporter=classic --timeout=150 test/*.js test/reporters/*.js",
     "visual": "node test/visual/run-visual-tests.js",
-    "prepublish": "npm run make-ts",
-    "make-ts": "babel-node --presets=babel-preset-es2015 --plugins=transform-runtime types/make.js"
+    "prepublish": "npm run snyk-protect && npm run make-ts",
+    "make-ts": "babel-node --presets=babel-preset-es2015 --plugins=transform-runtime types/make.js",
+    "snyk-protect": "snyk protect"
   },
   "files": [
     "lib",
@@ -158,7 +159,8 @@
     "strip-bom": "^2.0.0",
     "time-require": "^0.1.2",
     "unique-temp-dir": "^1.0.0",
-    "update-notifier": "^1.0.0"
+    "update-notifier": "^1.0.0",
+    "snyk": "^1.317.0"
   },
   "devDependencies": {
     "babel-cli": "^6.10.1",
@@ -199,5 +201,6 @@
         }
       }
     ]
-  }
+  },
+  "snyk": true
 }
