@@ -105,7 +105,7 @@
     "bluebird": "^3.0.0",
     "caching-transform": "^1.0.0",
     "chalk": "^1.0.0",
-    "chokidar": "^1.4.2",
+    "chokidar": "^3.0.0",
     "clean-yaml-object": "^0.1.0",
     "cli-cursor": "^1.0.2",
     "cli-spinners": "^0.1.2",
