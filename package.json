@@ -115,7 +115,7 @@
     "convert-source-map": "^1.2.0",
     "core-assert": "^0.2.0",
     "currently-unhandled": "^0.4.1",
-    "debug": "^2.2.0",
+    "debug": "^3.1.0",
     "empower-core": "^0.6.1",
     "figures": "^1.4.0",
     "find-cache-dir": "^0.1.1",
